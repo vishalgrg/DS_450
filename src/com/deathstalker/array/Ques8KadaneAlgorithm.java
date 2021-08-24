@@ -35,7 +35,7 @@ public class Ques8KadaneAlgorithm {
     public static int maxSubarraySum(int arr[], int n){
 
         if (null == arr || arr.length <=0) return -1;
-        if (arr.length == 1) return arr[1];
+
         int maxSofar = Integer.MIN_VALUE, maxEnd = 0;
         for (int i = 0; i<n;++i){
             maxEnd = maxEnd+arr[i];
