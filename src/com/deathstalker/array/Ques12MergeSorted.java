@@ -2,7 +2,7 @@ package com.deathstalker.array;
 
 import java.util.Arrays;
 
-public class Ques11MergeSorted {
+public class Ques12MergeSorted {
 
     //Merge Without Extra Space
     /*Given two sorted arrays arr1[] of size N and arr2[] of size M.
